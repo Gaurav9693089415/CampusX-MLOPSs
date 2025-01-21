@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple E-Commerce</title>
+    <style>
+        /* Basic styles for layout */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #2874f0;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+
+        .navbar a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .navbar a:hover {
+            background-color: #ddd;
+        }
+
+        .product-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .product {
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 15px;
+            padding: 10px;
+            text-align: center;
+            width: 200px;
+            border-radius: 10px;
+        }
+
+        .product img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .product h3 {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        .product p {
+            font-size: 14px;
+            color: gray;
+        }
+
+        .price {
+            font-size: 20px;
+            color: #2874f0;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Simple E-Commerce</h1>
+</header>
+
+<div class="navbar">
+    <a href="#">Home</a>
+    <a href="#">Categories</a>
+    <a href="#">Deals</a>
+    <a href="#">Cart</a>
+    <a href="#">Profile</a>
+</div>
+
+<div class="product-container">
+    <!-- Product 1 -->
+    <div class="product">
+        <img src="https://via.placeholder.com/150" alt="Product Image">
+        <h3>Product Name 1</h3>
+        <p>Product description goes here.</p>
+        <div class="price">$100</div>
+        <button>Add to Cart</button>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="product">
+        <img src="https://via.placeholder.com/150" alt="Product Image">
+        <h3>Product Name 2</h3>
+        <p>Product description goes here.</p>
+        <div class="price">$200</div>
+        <button>Add to Cart</button>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="product">
+        <img src="https://via.placeholder.com/150" alt="Product Image">
+        <h3>Product Name 3</h3>
+        <p>Product description goes here.</p>
+        <div class="price">$300</div>
+        <button>Add to Cart</button>
+    </div>
+
+    <!-- Product 4 -->
+    <div class="product">
+        <img src="https://via.placeholder.com/150" alt="Product Image">
+        <h3>Product Name 4</h3>
+        <p>Product description goes here.</p>
+        <div class="price">$400</div>
+        <button>Add to Cart</button>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2025 Simple E-Commerce</p>
+</footer>
+
+</body>
+</html>
+
